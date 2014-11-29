@@ -1,0 +1,35 @@
+{
+  "name": "simple-timestepper",
+  "version": "0.0.0",
+  "description": "simply pass in two callbacks, one that get's called at a fixed time step i.e. 60 fps, the other is called on every animation frame",
+  "author": "smallhelm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallhelm/simple-timestepper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smallhelm/simple-timestepper/issues"
+  },
+  "homepage": "https://github.com/smallhelm/simple-timestepper",
+  "keywords": [
+    "simulation",
+    "game",
+		"requestAnimationFrame",
+		"frame",
+    "html5",
+    "browser",
+    "loop",
+    "gameloop"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "build": "uglifyjs index.js -cm > simple-timestepper.min.js"
+  }
+}
