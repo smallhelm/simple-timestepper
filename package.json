@@ -15,8 +15,8 @@
   "keywords": [
     "simulation",
     "game",
-		"requestAnimationFrame",
-		"frame",
+    "requestAnimationFrame",
+    "frame",
     "html5",
     "browser",
     "loop",
