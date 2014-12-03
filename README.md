@@ -1,6 +1,6 @@
 # What it does
 
-Makes your games and simulations update smoothly at a constat time step.
+Makes your games and simulations update smoothly at a constant time step.
 
 It separates update ticks and rendering frames. This way when writing games and simulations the state of the game updates at a constant time step while the rendering happens as fast as the browsers requestAnimationFrame updates.
 
@@ -24,6 +24,10 @@ t.start();//start the loop again
 By default it calls update 60 times a second, however you can customize this rate. For example: if you want it to update 30 times a second do this
 ```js
 var t = timestepper(onUpdate, onRender, 1/30);
+```
+By default the frame rate is the native requestAnimationFrame, however you can customize this interval.
+```js
+var t = timestepper(onUpdate, onRender, 1/30, 1000/30);
 ```
 
 There are 3 ways to include this library

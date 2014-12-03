@@ -1,6 +1,6 @@
 {
   "name": "simple-timestepper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "simply pass in two callbacks, one that get's called at a fixed time step i.e. 60 fps, the other is called on every animation frame",
   "author": "smallhelm",
   "license": "MIT",
